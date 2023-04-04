@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Espaçamento do conteúdo do elemento */
+    font-size: 14px;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    /* Para sites responsivos, precisamos utilizar medidas relativas*/
+    height: auto;
+    /* Para sites responsivos, precisamos utilizar medidas relativas*/
+}
+
+#conteudo {
+    width: 100%;
+    min-height: 800px;
+    /* Quando é uma altura mínima, podemos incluir um número exato */
+    margin: 1%;
+    font-family: arial;
+    font-size: 1.5em;
+    text-align: justify;
+    color: #fff;
+}
+
+article {
+    padding: 1%;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: arial;
+    font-size: 1em;
+    color: #FFF;
+}
+
+.img {
+    /* Seletor de classes para imagem */
+    width: 40%;
+}
+
+@media screen and (max-width:440px) {
+    .img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .img {
+        width: 70%;
+    }
+}
+.produtos-container{
+    display: flex;
+    justify-content: space-between;
+}
