@@ -6,54 +6,70 @@
     background-color: white;
 }
 
-header {
+header{
     width: 100%;
     /* Para sites responsivos, precisamos utilizar medidas relativas*/
     height: auto;
     /* Para sites responsivos, precisamos utilizar medidas relativas*/
 }
 
-#conteudo {
+#top{
+    width: 100%;
+    height: 100px;
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+
+#topo a{
+    color: #FFF;
+}
+
+#content{
     width: 100%;
     min-height: 800px;
     /* Quando é uma altura mínima, podemos incluir um número exato */
+    background-color: #FFF;
     margin: 1%;
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
     font-size: 1.5em;
     text-align: justify;
     color: #fff;
 }
 
-article {
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: black
+}
+
+article{
     padding: 1%;
 }
 
-footer {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-family: arial;
-    font-size: 1em;
-    color: #FFF;
-}
-
-.img {
+.img{
     /* Seletor de classes para imagem */
     width: 40%;
 }
 
-@media screen and (max-width:440px) {
+@media screen and (max-width:440px){
     .img {
         width: 60%;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:320px){
     .img {
         width: 70%;
     }
 }
-.produtos-container{
+
+.products-container{
     display: flex;
     justify-content: space-between;
 }
